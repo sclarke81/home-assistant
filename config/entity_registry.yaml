@@ -1,0 +1,60 @@
+media_player.kitchen_sonos:
+  config_entry_id: 4fdae1d7f9ee42eebb91c172f6fecd4c
+  name:
+  platform: sonos
+  unique_id: RINCON_000E583753BE01400
+media_player.play_room_sonos:
+  config_entry_id: 4fdae1d7f9ee42eebb91c172f6fecd4c
+  name:
+  platform: sonos
+  unique_id: RINCON_000E58361D5E01400
+media_player.lounge_sonos:
+  config_entry_id: 4fdae1d7f9ee42eebb91c172f6fecd4c
+  name:
+  platform: sonos
+  unique_id: RINCON_000E5827D08801400
+media_player.garage_chromecast:
+  config_entry_id: 7a2b34c59cf348e8b45efe118cedfd7a
+  name:
+  platform: cast
+  unique_id: f8ed8e50-ffbb-08c7-97f9-503a324302ed
+media_player.bedroom_home:
+  config_entry_id: 7a2b34c59cf348e8b45efe118cedfd7a
+  name:
+  platform: cast
+  unique_id: 63261f60-fdb3-8c87-9874-949030277b21
+media_player.kitchen_home:
+  config_entry_id: 7a2b34c59cf348e8b45efe118cedfd7a
+  name:
+  platform: cast
+  unique_id: 8eddd684-4a76-8072-eb46-b96d8c1f9e3c
+media_player.lounge_home:
+  config_entry_id: 7a2b34c59cf348e8b45efe118cedfd7a
+  name:
+  platform: cast
+  unique_id: bf3ec28f-9255-dd8e-e919-a48c4a8a6fd7
+media_player.kitchen_chromecast:
+  config_entry_id: 7a2b34c59cf348e8b45efe118cedfd7a
+  name:
+  platform: cast
+  unique_id: 3602465f-9166-03e4-887b-3af63cffaf72
+media_player.lounge_chromecast:
+  config_entry_id: 7a2b34c59cf348e8b45efe118cedfd7a
+  name:
+  platform: cast
+  unique_id: 0b7b909a-6f6d-6921-9c8a-ea0ff8093f75
+media_player.garage_home:
+  config_entry_id: 7a2b34c59cf348e8b45efe118cedfd7a
+  name:
+  platform: cast
+  unique_id: 2211d886-5cb1-a7e2-7a93-dc3c7ae3f44f
+light.lounge_light:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e13355204400110-65537
+light.lounge:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e13355204400110-131073

@@ -1,0 +1,7 @@
+*
+!*.yaml
+!.gitignore
+!config/
+!docker-compose.yml
+secrets.yaml
+known_devices.yaml
