@@ -1,4 +1,5 @@
 *
+!*.md
 !.travis.yml
 !*.yaml
 !.gitignore
