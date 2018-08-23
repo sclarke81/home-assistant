@@ -98,23 +98,6 @@ switch:
       R2D1:
         name: Cave lights
 
-light:
-  - platform: template
-    lights:
-      lounge_lamp:
-        friendly_name: 'Lounge lamp'
-        level_template: '{{ 255 if is_state("switch.lounge_lamp", "on") else 0 }}'
-        value_template: '{{ is_state("switch.lounge_lamp", "on") }}'
-        turn_on:
-          service: switch.turn_on
-          entity_id: switch.lounge_lamp
-        turn_off:
-          service: switch.turn_off
-          entity_id: switch.lounge_lamp
-        set_level:
-          service_template: switch.turn_'{{ "off" if brightness == 0 else "on" }}'
-          entity_id: switch.lounge_lamp
-
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml

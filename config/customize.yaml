@@ -1,2 +1,30 @@
   switch.lounge_lamp:
-    hidden: true
+    icon: mdi:lightbulb
+
+  switch.cabinet_lights:
+    icon: mdi:lightbulb
+
+  switch.lounge_lamp:
+    icon: mdi:lightbulb
+
+  switch.firepit_lights:
+    icon: mdi:lightbulb
+
+  switch.kitchen:
+    icon: mdi:lightbulb
+
+  switch.spotlights:
+    icon: mdi:lightbulb
+
+  switch.water_feature:
+    icon: mdi:fountain
+
+  switch.water_feature_light:
+    icon: mdi:lightbulb
+
+  switch.floodlight:
+    icon: mdi:lightbulb
+
+  switch.cave_lights:
+    icon: mdi:lightbulb
+
