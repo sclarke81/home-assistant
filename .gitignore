@@ -1,10 +1,22 @@
+# Exclude all
 *
-!UNLICENSE
+
+# File patterns to include
+!*.py
 !*.md
-!.travis.yml
 !*.yaml
+
+# Files to include
+!UNLICENSE
+!.travis.yml
 !.gitignore
-!config/
 !docker-compose.yml
+
+# Directories to include
+!config/
+!custom_components/
+!*/custom_components/switch/
+
+# Files to exclude
 secrets.yaml
 known_devices.yaml

@@ -79,8 +79,24 @@ switch:
     name: Lounge lamp
     host: 192.168.0.50
   - platform: tplink
-    name: Switch 2
+    name: Cabinet lights
     host: 192.168.0.51
+  - platform: lightwave
+    devices:
+      R1D2:
+        name: Firepit lights
+      R1D3:
+        name: Kitchen
+      R1D4:
+        name: Spotlights
+      R1D5:
+        name: Water feature
+      R1D6:
+        name: Water feature light
+      R1D7:
+        name: Floodlight
+      R2D1:
+        name: Cave lights
 
 light:
   - platform: template
