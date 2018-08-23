@@ -1,0 +1,50 @@
+  default_view:
+    view: yes
+    icon: mdi:home-assistant
+    entities:
+      - group.kitchen
+      - group.lounge
+      - group.garden
+      - group.garage
+      - group.bedroom
+
+  kitchen:
+    name: Kitchen
+    entities:
+      - switch.cabinet_lights
+      - media_player.kitchen_chromecast
+      - media_player.kitchen_home
+      - media_player.kitchen_sonos
+      - media_player.play_room_sonos
+
+  lounge:
+    name: Lounge
+    entities:
+      - switch.lounge_lamp
+      - light.lounge_light
+      - media_player.lounge_chromecast
+      - media_player.lounge_home
+      - media_player.lounge_sonos
+
+  garden:
+    name: Garden
+    entities:
+      - switch.firepit_lights
+      - switch.kitchen
+      - switch.spotlights
+      - switch.water_feature
+      - switch.water_feature_light
+
+  garage:
+    name: Garage
+    entities:      
+      - switch.floodlight
+      - switch.cave_lights
+      - media_player.garage_chromecast
+      - media_player.garage_home
+
+  bedroom:
+    name: bedroom
+    entities:      
+      - media_player.bedroom_home
+      
